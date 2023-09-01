@@ -1,0 +1,30 @@
+TO Update the python Pandas 
+
+ 	already installed the python pandas 
+	It is package that help in panadas in python 
+
+	 A new release of pip available: 22.3.1 -> 23.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+===================================================================================================================
+To Update th python pip 
+
+ A new release of pip available: 22.3.1 -> 23.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+
+TO Modulo in python the import cv or cv2
+	
+	aleready installed the python opencv-python modulo 
+	It is a Image processing modulo that Helps example that resize the image and blackinWhite the image etc...
+======================================================================================================================
+Python Repository
+
+	Python repositories are where software development teams that develop
+	with Python share their code artifacts (libraries, packages, etc.). 
+	The Python Package Index or PyPi, is the public repository where open source 
+	and other publicly available artifacts can be uploaded and downloaded.
+
+======================================================================================================================
+Pyhton Bulit in Modules Searching google
+
+ 	you can use it in the pythons aleready built modules to help in code
