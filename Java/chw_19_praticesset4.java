@@ -68,18 +68,37 @@ public class chw_19_praticesset4 {
             case 7 -> System.out.println("Sunday");*/
 
             // Problem 5
+            // Scanner sc = new Scanner(System.in);
+            // System.out.print("Enter you are website: ");
+            // String website = sc.next();
+            // if(website.endsWith(".org")){
+            //     System.out.println("This is an Organizational website");
+            // }
+            // else if(website.endsWith(".com")){
+            //     System.out.println("This is a Commercial website");
+            // }
+            // else if(website.endsWith(".in")){
+            //     System.out.println("This is an Indain website");
+            // }
+            
+            // Problem 6
+            //Enter year it will till you it is leap year
+            int year;
+            System.out.print("Enter the year: ");
             Scanner sc = new Scanner(System.in);
-            System.out.print("Enter you are website: ");
-            String website = sc.next();
-            if(website.endsWith(".org")){
-                System.out.println("This is an Organizational website");
-            }
-            else if(website.endsWith(".com")){
-                System.out.println("This is a Commercial website");
-            }
-            else if(website.endsWith(".in")){
-                System.out.println("This is an Indain website");
-            }
+            year = sc.nextInt();
 
+            if(leapyear(year)){
+                System.out.println(year + " is a leap year.");
+            }
+            else{
+                System.out.println(year + " is not a leap year.");
+            }
+            
+        
     }
+
+    public static boolean leapyear(int year){
+            return ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0));    
+        }
 }

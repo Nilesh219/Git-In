@@ -1,0 +1,218 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "oop_55_interface",
+            "request": "launch",
+            "mainClass": "oop_55_interface",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "oop_52_ch10ps",
+            "request": "launch",
+            "mainClass": "oop_52_ch10ps",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "oop_50_guessNum",
+            "request": "launch",
+            "mainClass": "oop_50_guessNum",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "opp_49_dyanimc_method_dispatch",
+            "request": "launch",
+            "mainClass": "opp_49_dyanimc_method_dispatch",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "oop_48_method_override",
+            "request": "launch",
+            "mainClass": "oop_48_method_override",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "oop_47_this_super",
+            "request": "launch",
+            "mainClass": "oop_47_this_super",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "oop_46_inheritance_in_constructor",
+            "request": "launch",
+            "mainClass": "oop_46_inheritance_in_constructor",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_45_inheritances",
+            "request": "launch",
+            "mainClass": "cwh_45_inheritances",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_44_ps_oop",
+            "request": "launch",
+            "mainClass": "cwh_44_ps_oop",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_43_game2",
+            "request": "launch",
+            "mainClass": "cwh_43_game2",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_42_constructor",
+            "request": "launch",
+            "mainClass": "cwh_42_constructor",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_41_game1",
+            "request": "launch",
+            "mainClass": "cwh_41_game1",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_40_getter_setter",
+            "request": "launch",
+            "mainClass": "cwh_40_getter_setter",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_39__ch8ps",
+            "request": "launch",
+            "mainClass": "cwh_39__ch8ps",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_38_custom_class",
+            "request": "launch",
+            "mainClass": "cwh_38_custom_class",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_35_practiceset_methods",
+            "request": "launch",
+            "mainClass": "cwh_35_practiceset_methods",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_34_recursion",
+            "request": "launch",
+            "mainClass": "cwh_34_recursion",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "cwh_33_variable_arguments",
+            "request": "launch",
+            "mainClass": "cwh_33_variable_arguments",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "chw_31_methods",
+            "request": "launch",
+            "mainClass": "chw_31_methods",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "chw_32_method_overloading",
+            "request": "launch",
+            "mainClass": "chw_32_method_overloading",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "calculate",
+            "request": "launch",
+            "mainClass": "calculate",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "chw_29_practices_array",
+            "request": "launch",
+            "mainClass": "chw_29_practices_array",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "CHW_05_Takinginput",
+            "request": "launch",
+            "mainClass": "CHW_05_Takinginput",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "chw_25_praticeloop",
+            "request": "launch",
+            "mainClass": "chw_25_praticeloop",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "chw_25_praticeloop",
+            "request": "launch",
+            "mainClass": "j1.chw_25_praticeloop",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "chw_25_practice_loop",
+            "request": "launch",
+            "mainClass": "chw_25_practice_loop",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "chw_24_brakcontinue",
+            "request": "launch",
+            "mainClass": "chw_24_brakcontinue",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "chw_23_forloop",
+            "request": "launch",
+            "mainClass": "chw_23_forloop",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "chw_22_dowhileloop",
+            "request": "launch",
+            "mainClass": "chw_22_dowhileloop",
+            "projectName": "Java_e16d0969"
+        },
+        {
+            "type": "java",
+            "name": "chw_21_whileloop",
+            "request": "launch",
+            "mainClass": "chw_21_whileloop",
+            "projectName": "Java_e16d0969"
+        }
+    ]
+}
