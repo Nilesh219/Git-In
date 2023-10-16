@@ -14,7 +14,7 @@ class Myth extends Thread{
         // }
     }
 }
-public class oop_73_thread_priorities {
+public class oop_73_thread_priorities{
 
     public static void main(String[] args) {
         Myth t1 = new Myth("Nilesh");
