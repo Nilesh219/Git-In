@@ -3,43 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qr code generator</title>
+    <title>Information Page</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
-    <div class="container">
-        <p>Enter your text or URL</p>
-        <input type="text" placeholder="Text or URL" id="qrText">
-        <div id="imgBox">
-            <img src="" id="qrImage">
+    <script scr="j1.js"> </script>
+    <div>
+        
+    
+        <form>
+            <h1>Personal Information</h1>
 
-        </div>
-        <button onclick="generateQr()">Generate OR Code</button>
+            <label for="name">Name: <input type="text" id="name" name="name"></label>
+            
+
+            <br><label for="Prn">Prn: <input type="text" id="Prn" name="prn"></label>
+            
+
+            <br><label for="10thmark">10th Mark(%): <input type="text" id="10thmark" name="10marks"></label>
+            
+
+            <br><label for="12thmark">12th Marks(%): <input type="text" id="12thmaek" name="12marks"></label>
+            
+
+            <br><label for="cetmark">Cet Mark(percentile): <input type="text" id="cetmark" name="cetmark"></label>
+            
+
+            <br><label for="cgpa">Cgpa(pointer): <input type="text" id="cgpa" name="cgpa"></label>
+            
+
+            <br><input type="submit" value="submit">
+
+        </form>
+
     </div>
-
-
-    <script>
-
-        let imgBox  = document.getElementById("imgBox");
-        let qrImage  = document.getElementById("qrImage");
-        let qrText  = document.getElementById("qrText");
-
-        function generateQr()
-        {
-            if(qrText.value.length >0)
-            {
-                qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + qrText.value;
-                imgBox.classList.add("show-img");
-            }
-            else{
-                qrText.classList.add('error');
-                setTimeout(()=>{
-                    qrText.classList.remove('error');
-                },1000);
-            }
-           
-        }
-    </script>
 </body>
 </html>
