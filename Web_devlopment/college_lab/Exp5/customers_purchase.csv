@@ -1,0 +1,11 @@
+Age,Income,Purchase
+Young,High,No
+Young,Low,Yes
+Middle-aged,High,No
+Senior,Medium,Yes
+Senior,Low,Yes
+Middle-aged,Low,No
+Senior,High,Yes
+Young,Medium,No
+Middle-aged,Medium,Yes
+Young,Low,Yes

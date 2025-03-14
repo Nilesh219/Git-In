@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-family: 'Comic Sans MS', cursive; /* Set font family to Comic Sans MS */
+}
+
+/* Style the brand logo separately */
+nav .brand {
+    display: flex;
+    align-items: center;
+}
+
+nav .brand img {
+    width: 30px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+/* Move the navigation links to the right side */
+nav .nav-items {
+    margin-left: auto;
+}
+
+/* Style the main content area */
+.Home-Page {
+    background: url('/images/Homepage.jpg') center/cover; /* Add background image */
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-page-content {
+    text-align: center;
+}
+
+/* Move specific navigation items to the right side */
+nav .nav-items.home,
+nav .nav-items.profile,
+nav .nav-items.about,
+nav .nav-items.signup,
+nav .nav-items.logout {
+    margin-left: auto;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav .nav-items {
+        margin-left: 0; /* Reset margin for small screens */
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
